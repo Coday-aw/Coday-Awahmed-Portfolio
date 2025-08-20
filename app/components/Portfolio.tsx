@@ -2,15 +2,15 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Intro from "./components/Intro";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Navbar from "./Navbar";
+import About from "./About";
+import Intro from "./Intro";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
-const page = () => {
+const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -63,4 +63,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Portfolio;
