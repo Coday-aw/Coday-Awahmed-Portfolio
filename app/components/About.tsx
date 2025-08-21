@@ -1,5 +1,3 @@
-import Image from "next/image";
-import AboutImage from "@/public/AboutImage.jpg";
 import { motion } from "framer-motion";
 import { CiDatabase } from "react-icons/ci";
 import { FaReact } from "react-icons/fa";
@@ -48,12 +46,6 @@ const About: React.FC<AboutProps> = ({ aboutRef, aboutInView }) => {
               padel and spending time with friends and family in my free time.
             </p>
           </div>
-
-          {/* <Image
-            src={AboutImage}
-            alt="About Me"
-            className="w-full h-full object-cover rounded-2xl"
-          /> */}
           <div className="flex flex-wrap sm:flex-nowrap gap-2 ">
             <div className="p-[2px] rounded-2xl bg-gradient-to-r from-indigo-600 to-emerald-600">
               <div className="flex flex-col gap-1 bg-white rounded-2xl p-4 hover:shadow-2xl transition-all">
