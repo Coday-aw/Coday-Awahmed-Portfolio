@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { navItems } from "../lib/data";
 import { TbCircleLetterC } from "react-icons/tb";
 import { Menu, X } from "lucide-react";

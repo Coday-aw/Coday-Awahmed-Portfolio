@@ -28,26 +28,6 @@ const Intro = ({ scrollTo }: IntroProps) => {
           </button>
         </div>
       </div>
-
-      {/* Floating Elements
-      <div
-        className="absolute top-1/4 left-1/4 text-4xl animate-bounce"
-        style={{ animationDelay: "0s" }}
-      >
-        ⚡
-      </div>
-      <div
-        className="absolute top-1/3 right-1/4 text-4xl animate-bounce"
-        style={{ animationDelay: "1s" }}
-      >
-        🚀
-      </div>
-      <div
-        className="absolute bottom-1/4 left-1/3 text-4xl animate-bounce"
-        style={{ animationDelay: "2s" }}
-      >
-        💎
-      </div> */}
     </section>
   );
 };
