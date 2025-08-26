@@ -61,7 +61,7 @@ export const projectsData = [
     tags: ["Next.js", "Tailwind", "MongoDB", "Node.js", "Typescript"],
     imageUrl: QuizlyImg,
     gitHubUrl: "https://github.com/Coday-aw/Quizly",
-    demoUrl: "https://quizly.vercel.app/",
+    demoUrl: "https://quizly-two.vercel.app/",
   },
   {
     title: "StayBnb",
