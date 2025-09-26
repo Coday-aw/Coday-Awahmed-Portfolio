@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import SkillsSlider from "./SkillsSlider";
 interface IntroProps {
   scrollTo: (id: string) => void;
 }
@@ -27,6 +28,7 @@ const Intro = ({ scrollTo }: IntroProps) => {
             <ChevronDown size={20} />
           </button>
         </div>
+        <SkillsSlider />
       </div>
     </section>
   );

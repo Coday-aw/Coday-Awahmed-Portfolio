@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -51,8 +50,6 @@ const page = () => {
 
       {/* Projects Section */}
       <Projects projectsRef={projectsRef} projectsInView={projectsInView} />
-
-      <Skills />
 
       {/* Contact Section */}
       <Contact contactRef={contactRef} contactInView={contactInView} />
